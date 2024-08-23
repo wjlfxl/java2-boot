@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.mydemo.mapper.StockMapper">
+
+    <resultMap id="StockMap" type="Stock">
+        <result property="id" column="sid"/>
+        <result property="type" column="stype"/>
+        <result property="amount" column="samount"/>
+        <result property="price" column="sprice"/>
+        <result property="time" column="stime"/>
+        <association property="merchant" javaType="Merchant">
+            <result property="id" column="mid"/>
+            <result property="people" column="mpeople"/>
+            <result property="company" column="mcompany"/>
+            <result property="address" column="maddress"/>
+            <result property="phone" column="mphone"/>
+        </association>
+        <association property="commodity" javaType="Commodity">
+            <result property="id" column="cid"/>
+            <result property="name" column="cname"/>
+            <result property="type" column="ctype"/>
+            <result property="price" column="cprice"/>
+            <result property="time" column="ctime"/>
+            <result property="apeople" column="capeople"/>
+        </association>
+    </resultMap>
+    <select id="queryStockList" resultMap="StockMap">
+        select s.id sid,s.merchantid smid,s.commodityid scid,s.type stype,s.amount samount,s.price sprice,s.time stime,
+               m.id mid,m.people mpeople,m.company mcompany,m.address maddress,m.phone mphone,
+               c.id cid,c.name cname,c.type ctype,c.amount camount,c.price cprice,c.time ctime,c.apeople capeople
+        from market.stock s,Merchant m,Commodity c
+        where s.merchantid=m.id and s.commodityid=c.id;
+    </select>
+
+    <select id="stockById" resultType="Stock">
+        select * from market.stock where id=#{id};
+    </select>
+
+    <insert id="addStock" parameterType="Stock">
+        insert into market.stock(merchantId,commodityId,type,amount,price,time)
+        values (#{merchant.id},#{commodity.id},#{type},#{amount},#{price},#{time});
+    </insert>
+
+    <delete id="deleteStock" parameterType="Stock">
+        delete from market.stock where id= #{id};
+    </delete>
+
+    <update id="upDateStock" parameterType="Stock">
+        update market.stock set merchantId = #{merchant.id}, commodityId = #{commodity.id},type = #{type},amount = #{amount},price = #{price},time = #{time}
+        where id =#{id};
+    </update>
+
+</mapper>

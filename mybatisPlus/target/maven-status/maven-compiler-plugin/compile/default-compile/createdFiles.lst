@@ -1,0 +1,5 @@
+com\mybatisplus\mapper\UserMapper.class
+com\mybatisplus\headler\MyDateObjectHandler.class
+com\mybatisplus\pojo\User.class
+com\mybatisplus\config\MyBatisPlusConfig.class
+com\mybatisplus\MybatisPlusApplication.class

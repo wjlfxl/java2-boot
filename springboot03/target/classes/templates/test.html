@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+
+<p th:text="${msg}"></p>
+
+<p th:utext="${msg}"></p>
+
+<!--前一个是遍历出来的值，后一个是存入的值-->
+<p th:each="user:${users}" th:text="${user}"></p>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ae9a4d6-5672-42ba-b911-7499f675473e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot/helloworld.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot01：Hello,World！.assets/1595409428560.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot02：运行原理初探.assets/1595415497407.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot02：运行原理初探.assets/1595415587435.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot02：运行原理初探.assets/1595416894611.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot03：yaml配置注入.assets/1595464528397.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot03：yaml配置注入.assets/1595464671197.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot03：yaml配置注入.assets/1595465051557.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot03：yaml配置注入.assets/1595466913174.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot03：yaml配置注入.assets/1595467734622.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot03：yaml配置注入.assets/1595467980925.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot03：yaml配置注入.assets/1595468231075.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot04：JSR303数据校验及多环境切换.assets/1595480159290.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot04：JSR303数据校验及多环境切换.assets/1595480813196.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot04：JSR303数据校验及多环境切换.assets/1595482583892.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot04：JSR303数据校验及多环境切换.assets/1595484043622.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot04：JSR303数据校验及多环境切换.assets/1595484511936.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot05：自动配置原理.assets/1595493746481.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot05：自动配置原理.assets/1595493884773.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot07：整合JDBC.assets/1595741635349.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595505892992.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595506019658.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595506633980.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595516976999.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595517369816.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595517390753.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595517831392.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595517869049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595518276475.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595550098734.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595550394178.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595554118099.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot10：Web开发静态资源处理.assets/1595554357772.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot11：Thymeleaf模板引擎.assets/1595555521951.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot11：Thymeleaf模板引擎.assets/1595557596160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot11：Thymeleaf模板引擎.assets/1595558424003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot11：Thymeleaf模板引擎.assets/1595560097876.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot12：MVC自动配置原理.assets/1595564720595.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot12：MVC自动配置原理.assets/1595564823239.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot12：MVC自动配置原理.assets/1595564942873.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot12：MVC自动配置原理.assets/1595584684727.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot12：MVC自动配置原理.assets/1595587328866.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot12：MVC自动配置原理.assets/1595587533039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot12：MVC自动配置原理.assets/1595587645715.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595594403624.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595604595071.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595604664699.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595605422294.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595605442883.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595605469344.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595605530046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595605552329.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595606566975.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595606666498.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/SpringBoot13：页面国际化.assets/1595666066757.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/springboot简介.assets/1595396173505.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/springboot简介.assets/1595396526609.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/springboot简介.assets/1595397063721.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/springboot简介.assets/1595397745294.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595681333478.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595683472896.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595685749462.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595685916526.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595685951486.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595686182138.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595730422298.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595730457032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595730489246.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595731466761.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595731494875.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595731955553.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595732299609.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595732679388.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595733308730.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595733680599.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595733822534.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595734605852.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595734687171.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595734914150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595734951932.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595735326186.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595735421990.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot笔记/SpringBoot课堂笔记/员工管理.assets/1595736334324.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpringBoot笔记" />
+  </component>
+  <component name="ProjectId" id="25hEzJ4a9EefiXdTMQwThKTYvPJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsynchronousApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="asynchronous" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.asynchronous.AsynchronousApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ae9a4d6-5672-42ba-b911-7499f675473e" name="Default Changelist" comment="" />
+      <created>1645971182263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645971182263</updated>
+      <workItem from="1645971184837" duration="192000" />
+      <workItem from="1648967797555" duration="93000" />
+      <workItem from="1649404300428" duration="15000" />
+      <workItem from="1649925158179" duration="35000" />
+      <workItem from="1650281820305" duration="12000" />
+      <workItem from="1657816240498" duration="131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

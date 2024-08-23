@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.mydemo.mapper.CommodityMapper">
+
+    <select id="queryCommodityList" resultType="Commodity">
+        select * from market.commodity;
+    </select>
+
+    <select id="commodityById" resultType="Commodity">
+        select * from market.commodity where id=#{id};
+    </select>
+
+    <insert id="addCommodity" parameterType="Commodity">
+        insert into market.commodity(name,type,amount,price,time,apeople)
+        values (#{name},#{type},#{amount},#{price},#{time},#{apeople});
+    </insert>
+
+    <delete id="deleteCommodity" parameterType="Commodity">
+        delete from market.commodity where id= #{id};
+    </delete>
+
+    <update id="upDateCommodity" parameterType="Commodity">
+        update market.commodity set name = #{name}, type = #{type},amount = #{amount},price = #{price},time = #{time},apeople = #{apeople}
+        where id =#{id};
+    </update>
+
+</mapper>

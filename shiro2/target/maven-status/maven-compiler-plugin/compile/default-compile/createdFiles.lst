@@ -1,0 +1,9 @@
+com\shiro2\pojo\User.class
+com\shiro2\Shiro2Application.class
+com\shiro2\service\impl\UserServiceImpl.class
+com\shiro2\config\UserRealm.class
+com\shiro2\mapper\UserMapper.class
+com\shiro2\config\ShiroConfig.class
+com\shiro2\service\UserService.class
+com\shiro2\controller\TestController.class
+com\shiro2\controller\LoginController.class

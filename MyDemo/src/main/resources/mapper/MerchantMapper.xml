@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.mydemo.mapper.MerchantMapper">
+
+    <select id="queryMerchantList" resultType="Merchant">
+        select * from market.merchant;
+    </select>
+
+    <select id="merchantById" resultType="Merchant">
+        select * from market.merchant where id=#{id};
+    </select>
+
+    <insert id="addMerchant" parameterType="Merchant">
+        insert into market.merchant(people,company,address,phone)
+        values (#{people},#{company},#{address},#{phone};
+    </insert>
+
+    <delete id="deleteMerchant" parameterType="Merchant">
+        delete from market.merchant where id= #{id};
+    </delete>
+
+    <update id="upDateMerchant" parameterType="Merchant">
+        update market.merchant set people = #{people}, company = #{company},address = #{address},phone = #{phone}
+        where id =#{id};
+    </update>
+
+</mapper>

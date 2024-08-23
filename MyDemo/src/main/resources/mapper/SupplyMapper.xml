@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.mydemo.mapper.SupplyMapper">
+
+    <resultMap id="SupplyMap" type="Supply">
+        <result property="id" column="sid"/>
+        <result property="type" column="stype"/>
+        <result property="amount" column="samount"/>
+        <result property="price" column="sprice"/>
+        <result property="time" column="stime"/>
+        <association property="merchant" javaType="Merchant">
+            <result property="id" column="mid"/>
+            <result property="people" column="mpeople"/>
+            <result property="company" column="mcompany"/>
+            <result property="address" column="maddress"/>
+            <result property="phone" column="mphone"/>
+        </association>
+        <association property="commodity" javaType="Commodity">
+            <result property="id" column="cid"/>
+            <result property="name" column="cname"/>
+            <result property="type" column="ctype"/>
+            <result property="price" column="cprice"/>
+            <result property="time" column="ctime"/>
+            <result property="apeople" column="capeople"/>
+        </association>
+    </resultMap>
+
+
+    <select id="querySupplyList" resultMap="SupplyMap">
+        select s.id sid,s.merchantid smid,s.commodityid scid,s.type stype,s.amount samount,s.price sprice,s.time stime,
+               m.id mid,m.people mpeople,m.company mcompany,m.address maddress,m.phone mphone,
+               c.id cid,c.name cname,c.type ctype,c.amount camount,c.price cprice,c.time ctime,c.apeople capeople
+        from market.supply s,Merchant m,Commodity c
+        where s.merchantid=m.id and s.commodityid=c.id;
+    </select>
+
+<!--    <select id="userById" resultType="User">-->
+<!--        select * from market.user where id=#{id};-->
+<!--    </select>-->
+
+<!--    <insert id="addUser" parameterType="User">-->
+<!--        insert into market.user(name,password,people,phone,address)-->
+<!--        values (#{name},#{password},#{people},#{phone},#{address});-->
+<!--    </insert>-->
+
+<!--    <delete id="deleteUser" parameterType="User">-->
+<!--        delete from market.user where id= #{id};-->
+<!--    </delete>-->
+
+<!--    <update id="upDateUser" parameterType="User">-->
+<!--        update market.user set name = #{name}, password = #{password},people = #{people},phone = #{phone},address = #{address}-->
+<!--        where id =#{id};-->
+<!--    </update>-->
+
+</mapper>

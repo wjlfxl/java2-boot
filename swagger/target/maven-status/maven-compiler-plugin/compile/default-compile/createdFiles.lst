@@ -1,0 +1,5 @@
+com\swagger\config\SwaggerConfig.class
+com\swagger\pojo\User.class
+com\swagger\controller\LoginController.class
+com\swagger\controller\TestController.class
+com\swagger\SwaggerApplication.class
